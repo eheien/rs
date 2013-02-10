@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA03DC53150C7B270040951E /* RateState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA03DC52150C7B270040951E /* RateState.cpp */; };
+		AA1DA1CB1540C5FD0082AF78 /* moc_RateStateSimWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA1DA1CA1540C5FD0082AF78 /* moc_RateStateSimWindow.cpp */; };
+		AA1DA1CD1540C6270082AF78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA1DA1CC1540C6270082AF78 /* main.cpp */; };
+		AA1DA1D01540C9820082AF78 /* RateStateSimWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA1DA1CF1540C9820082AF78 /* RateStateSimWindow.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA03DC3C150C7AEF0040951E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA03DC3E150C7AEF0040951E /* RateState */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RateState; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03DC52150C7B270040951E /* RateState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RateState.cpp; sourceTree = SOURCE_ROOT; };
+		AA1DA1C91540C3780082AF78 /* RateStateSimWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateStateSimWindow.h; sourceTree = SOURCE_ROOT; };
+		AA1DA1CA1540C5FD0082AF78 /* moc_RateStateSimWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moc_RateStateSimWindow.cpp; sourceTree = SOURCE_ROOT; };
+		AA1DA1CC1540C6270082AF78 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		AA1DA1CE1540C6540082AF78 /* RateState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateState.h; sourceTree = SOURCE_ROOT; };
+		AA1DA1CF1540C9820082AF78 /* RateStateSimWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RateStateSimWindow.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA03DC3B150C7AEF0040951E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA03DC33150C7AEF0040951E = {
+			isa = PBXGroup;
+			children = (
+				AA03DC41150C7AEF0040951E /* RateState */,
+				AA03DC3F150C7AEF0040951E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA03DC3F150C7AEF0040951E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA03DC3E150C7AEF0040951E /* RateState */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA03DC41150C7AEF0040951E /* RateState */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DA1CE1540C6540082AF78 /* RateState.h */,
+				AA03DC52150C7B270040951E /* RateState.cpp */,
+				AA1DA1C91540C3780082AF78 /* RateStateSimWindow.h */,
+				AA1DA1CF1540C9820082AF78 /* RateStateSimWindow.cpp */,
+				AA1DA1CA1540C5FD0082AF78 /* moc_RateStateSimWindow.cpp */,
+				AA1DA1CC1540C6270082AF78 /* main.cpp */,
+			);
+			path = RateState;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA03DC3D150C7AEF0040951E /* RateState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03DC48150C7AEF0040951E /* Build configuration list for PBXNativeTarget "RateState" */;
+			buildPhases = (
+				AA03DC3A150C7AEF0040951E /* Sources */,
+				AA03DC3B150C7AEF0040951E /* Frameworks */,
+				AA03DC3C150C7AEF0040951E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RateState;
+			productName = RateState;
+			productReference = AA03DC3E150C7AEF0040951E /* RateState */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA03DC35150C7AEF0040951E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = UCDavis;
+			};
+			buildConfigurationList = AA03DC38150C7AEF0040951E /* Build configuration list for PBXProject "RateState" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA03DC33150C7AEF0040951E;
+			productRefGroup = AA03DC3F150C7AEF0040951E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA03DC3D150C7AEF0040951E /* RateState */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA03DC3A150C7AEF0040951E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03DC53150C7B270040951E /* RateState.cpp in Sources */,
+				AA1DA1CB1540C5FD0082AF78 /* moc_RateStateSimWindow.cpp in Sources */,
+				AA1DA1CD1540C6270082AF78 /* main.cpp in Sources */,
+				AA1DA1D01540C9820082AF78 /* RateStateSimWindow.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA03DC46150C7AEF0040951E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA03DC47150C7AEF0040951E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA03DC49150C7AEF0040951E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include/qwt,
+					"/opt/local/include/QtGui/**",
+					"/opt/local/include/QtCore/**",
+					/opt/local/include/,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/local/lib",
+					"-lsundials_cvode",
+					"-lsundials_nvecserial",
+					"-lQtGui",
+					"-lQtCore",
+					"-lqwt",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		AA03DC4A150C7AEF0040951E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include/qwt,
+					"/opt/local/include/QtGui/**",
+					"/opt/local/include/QtCore/**",
+					/opt/local/include/,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/local/lib",
+					"-lsundials_cvode",
+					"-lsundials_nvecserial",
+					"-lQtGui",
+					"-lQtCore",
+					"-lqwt",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA03DC38150C7AEF0040951E /* Build configuration list for PBXProject "RateState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03DC46150C7AEF0040951E /* Debug */,
+				AA03DC47150C7AEF0040951E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03DC48150C7AEF0040951E /* Build configuration list for PBXNativeTarget "RateState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03DC49150C7AEF0040951E /* Debug */,
+				AA03DC4A150C7AEF0040951E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA03DC35150C7AEF0040951E /* Project object */;
+}
